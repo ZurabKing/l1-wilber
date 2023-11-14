@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.posts {
+  min-height: 90vh;
+}
+
+.post {
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.post__image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.photos {
+  display: flex;
+  gap: 10px;
+}
