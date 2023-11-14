@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Работа с формой</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <div>
+        <label for="firstName">Имя:</label>
+        <input
+          placeholder="введите имя"
+          type="text"
+          id="firstName"
+          name="firstName"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="lastName">Фамилия:</label>
+        <input
+          placeholder="введите фамилию"
+          type="text"
+          id="lastName"
+          name="lastName"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Почта:</label>
+        <input
+          placeholder="введите почту"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <button type="button" onclick="submitForm()">Отправить</button>
+    </form>
+
+    <script src="./l1-29.js"></script>
+  </body>
+</html>

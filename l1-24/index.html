@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Таблица</title>
+  </head>
+  <body>
+    <table class="table_dark">
+      <thead>
+        <th onclick="sortTable(0)">Имя</th>
+        <th onclick="sortTable(1)">Фамилия</th>
+        <th onclick="sortTable(2)">Телефон</th>
+        <th onclick="sortTable(3)">Адрес</th>
+        <th onclick="sortTable(4)">Город</th>
+        <th onclick="sortTable(5)">Штат</th>
+        <th onclick="sortTable(6)">Индекс</th>
+      </thead>
+      <tbody id="tableBody"></tbody>
+      <div id="pagination"></div>
+    </table>
+
+    <script src="./l1-24.js"></script>
+  </body>
+</html>
